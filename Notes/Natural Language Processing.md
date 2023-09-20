@@ -27,3 +27,83 @@ We use the hash symbol (#) to make comments
 #This is a comment
 ```
 
+> Task
+> 1. In input_and_output.py1
+> 	1. Put the header
+> 	2. Write in some comments
+
+# Input
+We grab information from the user using the `input`().
+When we run the function, it does two things:
+1. It **waits** for the user to write something or nothing
+2. The user presses **Enter/Return** to indicate that they're finished
+
+```python
+input()
+
+input(<prompt>) # prints out the prompt then waits
+```
+
+# Variable
+Variables allow us to **store** info for the time that out app 
+is running.
+
+```python
+favourite_food = input ("What is your favourite food?")
+```
+
+favourite_food --> name of the variable
+= --> **assignment operator**
+input() --> value
+# [[Strings]]
+
+## Naming 
+What you can do:
+1. name them with letters, numbers, underscores
+2. names **should** start with a lowercase lett
+
+## Naming 
+
+What you can do:
+1. name them with letters, numbers, underscores
+2. names **should** start with a lowercase letter
+What you can't do
+1. you **can't** name them with spaces or symbols
+2. you **can't** name them with certain names that are reserved
+	1. e.g. if, while, for, ...
+
+A good name is something like this:
+
+```python
+date_of_birth
+fave_food
+student_number
+```
+Bad names are like this:
+```python
+Favourite_food
+a
+num
+aa
+aaa
+aaaa
+```
+
+# Design
+
+*The design process* is the steps that we take when we create a solution to a problem.
+
+There are four steps in our design process
+
+## 1. Design our Algorithm in English (or any human language)
+An *Algorithm* is a sequence of steps to solve a problem.
+In this class, before we start ANY programming, we write out steps in English.
+
+## 2. Translate our Algorithm from English to Python
+We'll translate out algorithm into "proper" Python.
+
+## 3. Test out Python Algorithm
+Check if it works *syntactically*. In other words, we check to see if it BREAKS
+Check if it works *syntactically*. In other words, we ask does our algorithm actually solve the problem.
+
+
