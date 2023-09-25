@@ -22,6 +22,8 @@ list_of_responses=[f"Oh I have never tasted {fave_food} before.",
                    f"I dont like {fave_food} anymore.",
                    f"I want some {fave_food} now."]
 
+print(list_of_responses[2])
+
 # Choose on of those responses randomly
 import random
 random_food_response = random.choice(list_of_responses)
