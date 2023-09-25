@@ -13,3 +13,7 @@ import time
 #pause code for 1 second.
 time.sleep(1)
 ```
+
+# Import
+The import keyword loads the module into our file
+imports should be at the **top of the file** under the **header**
