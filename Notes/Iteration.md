@@ -103,6 +103,8 @@ For example, we can do something like this:
 # Repeat something 5 times and we want to keep track
 # of how many iterations we've completed
 
-for i in range(5)
+for i in range(5):
+	print(i)
 
 ```
+Simply put i is a counter. It counts how many times we're looping.
