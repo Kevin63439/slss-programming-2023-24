@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strings.md",
+                "file": "Iteration.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strings.md",
+                "file": "Iteration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strings.md",
+                "file": "Iteration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Strings.md"
+                "file": "Iteration.md"
               }
             }
           },
@@ -205,21 +205,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6aa88b2d4a779049",
+  "active": "1dd6bfbc7e763b37",
   "lastOpenFiles": [
-    "Iteration.md",
-    "stars_wars_bot.py",
-    "Natural Language Processing.md",
-    "Modules.md",
-    "loop_practice.py",
-    "Strings.md",
-    "Food_Suggestion_Bot.py",
-    "Errors.md",
-    "List.md",
-    "Headers.md",
+    "quiz_1.md",
     "Boolean.md",
     "Conditionals.md",
+    "Headers.md",
+    "List.md",
+    "Iteration.md",
     "Markdown (Re)Introduction.md",
+    "Modules.md",
+    "Natural Language Processing.md",
+    "Strings.md",
+    "stars_wars_bot.py",
+    "loop_practice.py",
+    "Food_Suggestion_Bot.py",
+    "Errors.md",
     "warmup_1.py",
     "Chatbot.py",
     "Chatbot",
