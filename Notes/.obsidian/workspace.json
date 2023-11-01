@@ -78,9 +78,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5a9e19ba25568d40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numbers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adf3d0726c5a9146",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recommendation Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -146,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Type.md",
+                "file": "Recommendation Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Type.md",
+                "file": "Recommendation Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Type.md"
+                "file": "Recommendation Systems.md"
               }
             }
           },
@@ -217,15 +241,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d8f8678b2be495d",
+  "active": "adf3d0726c5a9146",
   "lastOpenFiles": [
+    "mcdolands.py",
+    "olympic_judging.py",
+    "age_in_2049.py",
+    "chiprater.py",
+    "Numbers.md",
+    "Recommendation Systems.md",
+    "Type.md",
+    "Strings.md",
+    "quiz_1.md",
+    "Quiz 1 - Template.md",
     "pumpkin_drawing.py",
     "pumpkin",
     "pumpkin_drawing.oy",
     "Iteration.md",
-    "Type.md",
-    "Quiz 1 - Template.md",
-    "quiz_1.md",
     "Boolean.md",
     "Conditionals.md",
     "Headers.md",
@@ -233,14 +264,10 @@
     "Markdown (Re)Introduction.md",
     "Modules.md",
     "Natural Language Processing.md",
-    "Strings.md",
     "stars_wars_bot.py",
     "loop_practice.py",
     "Food_Suggestion_Bot.py",
     "Errors.md",
-    "warmup_1.py",
-    "Chatbot.py",
-    "Chatbot",
-    "input_and_output.py"
+    "warmup_1.py"
   ]
 }
