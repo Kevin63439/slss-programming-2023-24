@@ -18,5 +18,5 @@ fries_yes = input("Would you like fries for $3? (Yes/No)").lower().strip("!.,?")
 if fries_yes == "yes":
     cost += FRIES
 
-final_cost = {cost*(1+TAX)}
-print(f"Your total is {final_cost:.2f}")
+final_cost = cost*(1+TAX)
+print(f"Your total is ${final_cost:.2f}")

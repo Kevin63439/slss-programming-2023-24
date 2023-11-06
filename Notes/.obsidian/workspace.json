@@ -243,6 +243,8 @@
   },
   "active": "adf3d0726c5a9146",
   "lastOpenFiles": [
+    "semester_evaluator.py",
+    "world_traveller.py",
     "mcdolands.py",
     "olympic_judging.py",
     "age_in_2049.py",
@@ -266,8 +268,6 @@
     "Natural Language Processing.md",
     "stars_wars_bot.py",
     "loop_practice.py",
-    "Food_Suggestion_Bot.py",
-    "Errors.md",
-    "warmup_1.py"
+    "Errors.md"
   ]
 }
