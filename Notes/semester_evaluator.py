@@ -18,7 +18,7 @@ for courses in range(courses_taking):
 if courses_num/courses_taking <= 1:
     print(f"{courses_num/courses_taking}? Wow thats horrible")
 
-elif 1<courses_num <3:
+elif 1<courses_num/courses_taking <3:
     print(f"{courses_num/courses_taking}? Not a bad semeseter")
 
 else:
