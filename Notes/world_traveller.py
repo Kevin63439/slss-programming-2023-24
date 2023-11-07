@@ -5,7 +5,7 @@
 # Greet the user
 your_name = input(f"Hi my friend what's your name?")
 
-print(f"What's good {your_name}? It's great to meet you!")
+print(f"What's good {your_name}? It's great to meet you! I will be determining how many continents you've been to.")
 
 # Country questions
 
