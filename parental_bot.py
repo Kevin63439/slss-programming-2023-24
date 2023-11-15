@@ -28,5 +28,5 @@ if number_yes == 0:
 elif 1 > number_yes > 2:
     print("Ok") 
 else:
-    print("Good!")
+    print("That's good!")
 
