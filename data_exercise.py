@@ -99,7 +99,40 @@ print(f"{guang_zhou} person lives in Guangzhou!")
 # number that is even. There are a couple of ways to solve this.
 # You can either do this with the string or with the int.
 
+creditcard_user = 0
+
+with open("./data_example.csv", encoding="utf-8") as f:
+    f.readline()
+    for line in f:
+        if int(line.split(",")[3])%2==0:
+            creditcard_user += 1
+
+print(f"{creditcard_user} people have an even credit card number!")
+
+
 
 # Problem 8:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
+food_list = {}
+best_food = 0
+food_name = ""
+
+with open("./data_example.csv", encoding="utf-8") as f:
+    f.readline()
+    for line in f:
+        current_food = (line.split(",")[1])
+        if current_food in food_list:
+            food_list[current_food]+= 1
+        else:
+            food_list[current_food]=1
+
+                
+
+for nutrition in food_list:
+    if food_list[nutrition] > best_food:
+        best_food = food_list[nutrition]
+        food_name = nutrition
+
+print(f"{food_name} is the most popular food!")
+
