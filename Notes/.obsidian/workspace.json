@@ -92,6 +92,18 @@
             }
           },
           {
+            "id": "abf472fb5b49f506",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "adf3d0726c5a9146",
             "type": "leaf",
             "state": {
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recommendation Systems.md"
+                "file": "Functions.md"
               }
             }
           },
@@ -241,16 +253,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "adf3d0726c5a9146",
+  "active": "abf472fb5b49f506",
   "lastOpenFiles": [
+    "Numbers.md",
+    "Functions.md",
+    "Recommendation Systems.md",
     "semester_evaluator.py",
     "world_traveller.py",
     "mcdolands.py",
     "olympic_judging.py",
     "age_in_2049.py",
     "chiprater.py",
-    "Numbers.md",
-    "Recommendation Systems.md",
     "Type.md",
     "Strings.md",
     "quiz_1.md",
@@ -267,7 +280,6 @@
     "Modules.md",
     "Natural Language Processing.md",
     "stars_wars_bot.py",
-    "loop_practice.py",
     "Errors.md"
   ]
 }
