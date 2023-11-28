@@ -61,13 +61,42 @@ def biggest_of_three(num_1: int, num_2: int, num_3: int) -> int:
 print(biggest_of_three(100,1000,10000))
 
 # Question 3
-def pyramid(pyramid_of_stars: int) -> str:
+# Question 4
+# Create functions called pyramid() and pyramid_mirror()
+# Takes one number as a parameter
+# Give a pyramid either regular way or mirrored
+
+def pyramid(num_layers: int) -> None:
     """Returns a pyramid of stars
     
     Params:
     
-    pyramid_stars - the number of layers of stars in the pyramid
+    num_layers - the number of layers of stars in the pyramid
     """
 
-for i in range({pyramid_of_stars})
+    for current_layers in range(1, num_layers):
+        print(stars(num_layers)) 
 
+pyramid (2)
+pyramid (3)
+pyramid (4)
+pyramid (5)
+
+
+def pyramid(num_layers: int) -> None:
+    """Prints out a mirrored pyramid
+    
+    Params:
+    
+    num_layers - the number of layers of stars in the pyramid
+    """
+
+    for current_layer in range(1, num_layers+1):
+        # Print the spaces then print the stars
+        # " " * 1 + stars(1)
+        # "" * 0 + stars(2) 
+        # num_layers == 3
+        # " " * 2 + stars(1)
+        # " " * 1 + stars(2)
+        # " " * 0 + stars(3)
+        print(" " * + stars(current_layer))
