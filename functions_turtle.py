@@ -33,7 +33,7 @@ def draw_square(side_length: int) -> None:
 # for i in range(40):
 #    draw_square(squared(i))
 
-def draw_tree(level:int, height: int) -> None:
+def draw_fancy_tree(level:int, height: int) -> None:
     """A recursive function that draws a tree
     with initial given height in pixels
     
@@ -48,18 +48,23 @@ def draw_tree(level:int, height: int) -> None:
         burt.forward(height)
 
         # 2. Turn turtle left
-        burt.left(36)
+        burt.left(33)
         #   a. Draw a smaller tree (current level - 1)
-        draw_tree(level - 1, height * 0.75)
+        draw_fancy_tree(level - 1, height * 0.9)
+
+        burt.right(33)
+        draw_fancy_tree(level - 1, height * 0.9)
 
         # 3. Turn turtle right
-        burt.right(36 *2)
+        burt.right(33)
         #   a. Draw a smaller tree (current level - 1)
-        draw_tree(level - 1, height * 0.75)
+        draw_fancy_tree(level - 1, height * 0.9)
 
         # 4. Return to beginning
-        burt.left(36)
+        burt.left(33)
         burt.back(height)
+
+        
     else:
         original_colour = burt.color()
         burt.color("green")
@@ -72,6 +77,6 @@ burt.setheading(90)     # points burt north
 burt.width(4)           # trunk and branches thicker
 burt.speed(5)   
 
-draw_tree(3, 120)
+draw_fancy_tree(4, 80)
 
 turtle.done()
