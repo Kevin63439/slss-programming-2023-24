@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functions.md",
+                "file": "List.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functions.md",
+                "file": "List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functions.md",
+                "file": "List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functions.md"
+                "file": "List.md"
               }
             }
           },
@@ -255,8 +255,8 @@
   },
   "active": "abf472fb5b49f506",
   "lastOpenFiles": [
-    "Iteration.md",
     "Functions.md",
+    "Iteration.md",
     "Numbers.md",
     "Recommendation Systems.md",
     "semester_evaluator.py",
