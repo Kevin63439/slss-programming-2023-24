@@ -2,40 +2,27 @@
 # Author: Kevin Wong
 # 11 December 2023
 
+import colour_helper
 from PIL import Image
-
-
-def pixel_to_string(pixel: tuple) -> str:
-    """Take a rgb 3-tuple and "interpret it"
-    as a colour and return that colour's name
-
-    Params:
-        pixel - 3-tuple of (red, green, blue)
-
-    Return:
-        String representing the colour
-    """
-    r, g, b = pixel
-
-    if g > 250 and r < 32 and b < 32:
-        return "green"
-
-
-# Recall that we can open up files in Python
+#Recall that we ca open up fuiles inb Python
 with Image.open("./Images/kid-green.jpg") as im:
-    # algorithm to visit every pixel in the kid-green image
-    # store the height and width of the image
+    # Algorithm to visit every pixel in the kid-green
+    # Store the height and width of the image
     image_height = im.height
     image_width = im.width
-
-    # outer loop is top->bottom
-    # inner loop is left->right
+    # load the backgroud image
+    # *8 remember to close it at the end
+    bg_im = Image.open("./Images/beach.jpg")
+    # Outer loop is top -> bottom
+    # inner loop is left -> right
     for y in range(image_height):
         for x in range(image_width):
             pixel = im.getpixel((x, y))
-
-            # Detects green pixels
-            if pixel_to_string(pixel) == "green":
-                print("GREEN PIXEL!!!!")
-            else:
-                print("UNKNOWN PIXEL")
+            # Check pixel if it's green
+            if colour_helper.pixel_to_string(pixel) == "green":
+                # replace with bg_pixel
+                bg_pixel = bg_im.getpixel((x, y))
+                im.putpixel((x, y), bg_pixel)
+bg_im.close
+# Save the image
+im.save("./Images/output.jpg")
