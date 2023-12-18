@@ -16,3 +16,21 @@ def pixel_to_string(pixel: tuple) -> str:
 
     if g > 125 and r < 100 and b < 100:
         return "green"
+
+
+def is_light(pixel: tuple) -> bool:
+    """"""
+
+    return
+
+black_pixel = (0,0,0)
+dark_gray_pixel = (127,127,127)
+light_gray_pixel = (128,128,128)
+white_pixel = (255,255,255)
+
+print(is_light(black_pixel))   # False
+print(is_light(dark_gray_pixel))  # False
+print(is_light(light_gray_pixel))  # True
+print(is_light(white_pixel))    # True
+
+
