@@ -19,7 +19,22 @@ def pixel_to_string(pixel: tuple) -> str:
 
 
 def is_light(pixel: tuple) -> bool:
-    """"""
+    """Returns true if given pixel is "light"
+    
+    Params: 
+    pixel - 3-tuple of values red. green, blue
+    
+    Returns:
+        True if pixel is light false if not
+    """
+    return pixel >= (128,128,128)
+
+    average = (red + green + blue) / 3
+
+    if average >= 128:
+        return True
+    else:
+        return False
 
     return
 
