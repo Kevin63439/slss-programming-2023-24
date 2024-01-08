@@ -150,6 +150,7 @@
   },
   "active": "f383292218e0950f",
   "lastOpenFiles": [
+    "winter_holidays.py",
     "image_problem.py",
     "Markdown (Re)Introduction.md",
     "Natural Language Processing.md",
@@ -175,7 +176,6 @@
     "Boolean.md",
     "Conditionals.md",
     "Headers.md",
-    "stars_wars_bot.py",
     "Errors.md"
   ]
 }
