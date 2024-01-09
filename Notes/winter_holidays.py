@@ -38,10 +38,9 @@ def winter_holiday(good_or_bad: str) -> str:
 
 def main() -> None:
     # Runs all the things we want to test in our .py file
-    print(winter_holiday("good"))
+    print(winter_holiday(input("How was ur christmas break?")))
     # "I got a Lego set for the first time in a long time."
     # "I went to Richmond Centre to walk around aimlessly."
-    print(winter_holiday("bad"))
     # "I hoped to snowboard but then it was raining"
 
 
