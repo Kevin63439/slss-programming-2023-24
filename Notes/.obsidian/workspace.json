@@ -11,9 +11,11 @@
             "id": "f383292218e0950f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.3"
+                "file": "Errors.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Errors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Errors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Errors.md"
+              }
             }
           },
           {
@@ -154,6 +160,7 @@
   },
   "active": "f383292218e0950f",
   "lastOpenFiles": [
+    "Robot_dawg.py",
     "Jelly_Beans.py",
     "winter_holidays.py",
     "image_problem.py",
@@ -176,7 +183,6 @@
     "quiz_1.md",
     "Quiz 1 - Template.md",
     "pumpkin_drawing.py",
-    "pumpkin",
     "Boolean.md",
     "Conditionals.md",
     "Headers.md",
